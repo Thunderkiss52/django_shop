@@ -1,7 +1,7 @@
 from unicodedata import category
 
 from django.contrib import admin
-from . import Course, Category
+from .models import Course, Category
 
 admin.site.site_header = "Courses Admin"
 admin.site.site_title = "My Courses"
